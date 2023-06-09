@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.tipo {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+label {
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #651493;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color:#ffffff;
+    color:#651493
+}
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
